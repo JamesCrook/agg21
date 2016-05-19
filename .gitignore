@@ -1,0 +1,70 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.pyc
+
+# Other unwanted files.
+*.opt
+*.plg
+*.user
+*.asm
+*.cod
+*.sbr
+*.suo
+*.sdf
+*.exp
+*.ilk
+*.pdb
+*.idb
+*.lastbuild
+*.log
+*.tlog
+*.ipch
+*.opensdf
+# unsure about the .sal files.  Disable for now.
+*.sal
+
+# Precompiled Headers
+*.gch
+*.pch
+*.ncb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Mac Specific
+.DS_Store
+xcuserdata
+*.xcconfig
+mac/build
+
+# Windows specific
+win/Debug
+win/Release
+win/Projects/*/Debug
+win/Projects/*/Release
+
+# Misc
+src/RevisionIdent.h
+win/resetPrefs.txt
+
+# Emacs backup files
+*~
